@@ -1,0 +1,24 @@
+Categories:
+  - Multimedia
+  - Music
+License: GPL-3.0-or-later
+SourceCode: https://github.com/Arturo254/OpenTune
+IssueTracker: https://github.com/Arturo254/OpenTune/issues
+
+AutoName: OpenTune
+Description: |
+  OpenTune es una aplicación de música de código abierto para Android.
+
+  [Por favor añade aquí una descripción más detallada de las características 
+  principales de tu app]
+
+RepoType: git
+Repo: https://github.com/Arturo254/OpenTune
+
+Builds:
+  - versionName: '1.0'
+    versionCode: 1
+    commit: master  # Deberías cambiarlo por el hash del commit específico o tag
+    subdir: app    # Ajusta esto si tu código no está en el directorio 'app'
+    gradle:
+      - yes
